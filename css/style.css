@@ -6,17 +6,28 @@
 
 img {
   display: block;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+
+.surface-black-box {
+  margin: 0 auto;
+  background: #000;
+  width: 768px;
+  height: 100%;
 }
 
 .box {
+  margin: 0 auto;
   width: 768px;
   height: 434px;
   position: relative;
-  background: rgb(0, 0, 0);
-}
-
-.opaque {
-  background: rgb(0, 0, 0, 0.6);
 }
 
 span.text-box {
