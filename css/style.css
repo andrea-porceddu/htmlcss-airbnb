@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.box {
+  width: 768px;
+  height: 434px;
+  position: relative;
+  background: rgb(0, 0, 0);
+}
+
+.opaque {
+  background: rgb(0, 0, 0, 0.6);
+}
+
+span.text-box {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000;
+}
